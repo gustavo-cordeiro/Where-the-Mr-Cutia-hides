@@ -1,0 +1,31 @@
+.sprite{display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(sprite.png); background-size: 165.5em 128em; font-size: 1em;}
+ 
+.box-arabesque{ width:32.687em; height:14.312em; background-position: -95.312em -29.937em;}
+.btn-next{ width:0.937em; height:1.375em; background-position: -41em -12.437em;}
+.btn-prev{ width:0.937em; height:1.375em; background-position: -41em -10.625em;}
+.cover-circle{ width:32.562em; height:29.875em; background-position: -95.5em -0em;}
+.drop{ width:2.125em; height:2.812em; background-position: -44.875em -6.437em;}
+.footer-cover{ width:37.5em; height:28.5em; background-position: -0em -17.937em;}
+.lp-small{ width:3.437em; height:4.687em; background-position: -37.562em -10.812em;}
+.title-cover{ width:28.437em; height:12.437em; background-position: -67.312em -0em;}
+.title-page1{ width:29.812em; height:10.625em; background-position: -37.5em -0.062em;}
+.water-flow{ width:37.562em; height:17.812em; background-position: -0em -0em;}
+.box-title-page3{ width:16.25em; height:2.375em; background-position: -41.937em -10.687em;}
+.page-4{ width:37.875em; height:64.375em; background-position: --0.312em -46.437em;}
+.sun-shine-effect{ width:37.687em; height:63.875em; background-position: -37.562em -15.5em;}
+.title-page6{ width:29.5em; height:32.75em; background-position: -98.562em -44.25em;}
+.title-page11{ width:34.125em; height:27.062em; background-position: -37.562em -79.312em;}
+.box-title-page10{ width:28.812em; height:2.312em; background-position: -42em -13.187em;}
+.box-title-page8{ width:28.812em; height:2.312em; background-position: -42em -13.187em;}
+.braces{ width:1.687em; height:3.437em; background-position: -71.687em -79.375em;}
+.footer-page6{ width:37.625em; height:17.125em; background-position: -0em -110.812em;}
+.footer-page7{ width:37.562em; height:18.375em; background-position: -37.625em -110.75em;}
+.footer-page11{ width:37.937em; height:31.062em; background-position: -75.187em -96.937em;}
+.title-page13{ width:32.687em; height:18.25em; background-position: -75.25em -78.75em;}
+.clouds{ width:28.937em; height:13.875em; background-position: -75.25em -97em;}
+.footer-page5{ width:17em; height:11.875em; background-position: -78.312em -12.437em;}
+.title-page14{ width:32.687em; height:15em; background-position: -113.125em -112.937em;}
+.title-page12-win{ width:20.5em; height:3.687em; background-position: -75.25em -75.062em;}
+.btn-page12-restart{ width:16.312em; height:4.937em; background-position: -78.937em -24.375em;}
+.box-description{ width:31.5em; height:8.437em; background-position: -113.125em -104.5em;}
+.box-description2{ width:31.5em; height:10.312em; background-position: -113.125em -94.187em;}

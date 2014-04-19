@@ -1,0 +1,12 @@
+.sprite-special{display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(sprite-special.png); background-size: 74em 33em; font-size: 1em;}
+ 
+.mode-parent-close{ width:1.875em; height:2em; background-position: -70.562em -22em;}
+.mode-parent-down{ width:2.625em; height:1.75em; background-position: -70.687em -18.125em;}
+.mode-parent-up{ width:2.625em; height:1.75em; background-position: -70.625em -20.062em;}
+.mode-teacher-up{ width:2.625em; height:1.75em; background-position: -70.562em -11.875em;}
+.mode-teacher-down{ width:2.625em; height:1.75em; background-position: -70.562em -13.812em;}
+.mode-teacher-close{ width:1.875em; height:2em; background-position: -71em -15.75em;}
+.mode-teacher-bg{ width:34.562em; height:32.812em; background-position: -35em -0.125em;}
+.mode-parent-bg{ width:34.5em; height:33em; background-position: -0em -0em;}
+.mode-parent-button{ width:3.125em; height:3.062em; background-position: -70.5em -24.187em;}
+.mode-teacher-button{ width:3.125em; height:3.062em; background-position: -70.875em -28.937em;}
