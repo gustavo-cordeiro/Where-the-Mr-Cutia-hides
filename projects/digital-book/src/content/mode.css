@@ -1,0 +1,22 @@
+.mode_sprite			{ background-repeat: no-repeat;background-image:url(images/book/sprite/sprite-special.png); background-size: 74em 33em; font-size: 1em }
+.mode_button 			{ display:none; position:fixed; left:50%; top:-0.1em; margin-left:-18.9em; z-index:9999 }
+
+.mode_panel 			{ display:none; position:absolute; top:15em; margin-left:0.5em; z-index:9998; overflow:hidden; .png) }
+.mode_panel div			{ margin:0; padding:4em 5em 2em 2em; height:35em }
+.mode_panel h2 			{ font-size:1.3em; font-weight:bold; margin:1em 2em; padding:0 }
+.mode_panel p 			{ font-size:1.2em; margin:1em 2em; padding:0; text-align:justify; width:100% !important }
+.mode_multipage div		{ padding-right:7em !important }
+ 
+.mode_teacher 			{ width:34.562em; height:32.812em; background-position: -35em -0.125em;}
+.mode_teacher_up		{ position:absolute; top:5em; right:1.5em; width:2.625em; height:1.75em; background-position: -70.562em -11.875em;}
+.mode_teacher_down		{ position:absolute; top:29em; right:1.5em; width:2.625em; height:1.75em; background-position: -70.562em -13.812em;}
+.mode_teacher_close		{ position:absolute; top:1.5em; right:1em;width:1.875em; height:2em; background-position: -71em -15.75em;}
+.mode_teacher_button	{ width:3.125em; height:3.062em; background-position: -70.875em -28.937em;}
+
+.mode_parents 			{ width:34.5em; height:33em; background-position: -0em -0em;}
+.mode_parents_up		{ position:absolute; top:5em; right:1.5em; width:2.625em; height:1.75em; background-position: -70.625em -20.062em;}
+.mode_parents_down		{ position:absolute; top:29em; right:1.5em; width:2.625em; height:1.75em; background-position: -70.687em -18.125em;}
+.mode_parents_close		{ position:absolute; top:1.5em; right:1em; width:1.875em; height:2em; background-position: -70.562em -22em;}
+.mode_parents_button	{ width:3.125em; height:3.062em; background-position: -70.5em -24.187em;}
+
+.align_right 			{ text-align:right !important }

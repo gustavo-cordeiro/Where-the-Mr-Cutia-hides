@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Os Defensores da Água - E-Book</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, target-densityDpi=device-dpi">
+        <link rel="stylesheet" href="../content/book.css">
+        <link rel="stylesheet" href="../content/caca_palavras.css">
+        <link rel="stylesheet" href="../content/mode.css">
+        <script src="http://localhost:35729/livereload.js"></script>
+    </head>
+    <body>
+        <div id="loading">
+            <h1>Carregando...</h1>
+        </div>
+        <nav id="page-navigation">
+            <ul>
+                <li><button class="sprite" id="btn-prev"><span>Página anterior</span></button></li>
+                <li><button class="sprite" id="btn-next"><span>Próxima página</span></button></li>
+            </ul>
+        </nav>
+        <div id="main" class="default-width-center">
+            <button type="button" id="btn_teacher" class="mode_sprite mode_button mode_teacher_button"></button>
+            <button type="button" id="btn_parents" class="mode_sprite mode_button mode_parents_button"></button>
+
+            <div id="page-containner">
+                <section id="cover" class="lineOverPage page">
+                    <div class="default-width-center">
+                        <h1 class="sprite" id="title-cover"><span>Os defensores da água</span></h1>
+                        <dfn id="cover-circle" class="sprite">
+                            <span>Pirata com seu báu.</span>
+                        </dfn>
+                        <footer id="footer-cover" class="sprite">
+                            <div>
+                                <h2 class="white">Água</h2>
+                                <address class="sprite" id="lp-small"><span>Letra e Ponto, 2º edição.</span></address>
+                            </div>
+                        </footer>
+                    </div>
+                </section>
+
+                <section id="page-2" class="lineOverPage page">
+                    <article class="mode_sprite mode_panel mode_teacher">
+                        <button type="button" class="mode_sprite mode_teacher_close"></button>
+                        <div>
+                            <h2>Caros Professores,</h2>
+                            <p>
+                                Os seus alunos receberam o conjunto temático ENTRE PELO CANO E... SAIA, SE PUDER! - ÁGUA, 
+                                da série VIDA EM COMUNIDADE.
+                            </p>
+                            <p>
+                                Este suplemento reúne sugestões de atividades didáticas que utilizam o jogo <strong>Os 
+                                Defensores da Água</strong> e os <strong>Aquaplicativos</strong> para que vocês possam 
+                                construir projetos relacionados ao cotidiano dos estudantes, de suas famílias e da comunidade,
+                                a fim de estimular a participação social.
+                            </p>
+                            <p class="align_right">
+                                Contamos com vocês!
+                            </p>
+                        </div>
+                    </article>
+                    <article class="mode_sprite mode_panel mode_parents">
+                        <button type="button" class="mode_sprite mode_parents_close"></button>
+                        <div>
+                            <h2>Pais e responsáveis,</h2>
+                            <p>
+                                Seu(ua) filho(a) recebeu o conjunto temático ENTRE PELO CANO E... SAIA, SE PUDER! - ÁGUA
+                                da série VIDA EM COMUNIDADE.
+                            </p>
+                            <p>
+                                Este suplemento é dedicado especialmente a vocês, para que sua família possa saber mais
+                                sobre o uso consciente da água, evitando o desperdício. Leiam este material com seu(ua)
+                                filho(a), peçam para que ele(a) o leia para vocês e pensem juntos, em família, em como
+                                podem contribuir para que todos vocês e sua comunidade economizem a água, que é tão
+                                essencial ao nosso dia a dia.
+                            </p>
+                            <p class="align_right">
+                                Contamos com vocês!
+                            </p>
+                        </div>
+                    </article>
+
+                    <div class="default-width-center">
+                        <h1 class="sprite" id="title-page1"><span>O maior tesouro do planeta</span></h1>
+                        <article class="sprite white" id="box-arabesque">
+                            <p>Em forma de vapor, transforma-se em nuvens. Pode cair como chuva, granizo ou neve.
+                                Pode ser doce ou salgada e até se transformar em gelo! Você sabe sobre o que estamos falando?</p>
+                        </article>
+                        <article class="sprite water-flow dark-blue">
+                            <div class="text-transition">
+                                <div>
+                                    <p>
+                                        <span class="capitulate">Á</span>gua... Isso mesmo! O único elemento da natureza 
+                                        encontrado sob três estados – sólido, líquido e gasoso – e que pode ser considerado também 
+                                        o mais precioso para a manutenção da vida humana e de todos os demais animais e plantas ao
+                                        nosso redor.
+                                    </p>
+                                    <p>
+                                        Ela é incolor (sem cor), inodora (sem cheiro) e insípida (sem gosto) apenas em seu estado puro.
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        Mas da água pura é difícil que venhamos a provar. Ainda que de maneira muito discreta, a que 
+                                        usamos sempre tem algum cheiro, gosto ou coloração, seja pelo uso de produtos químicos para 
+                                        o seu tratamento ou por misturar-se com outras substâncias ao cair, por exemplo, nos telhados, 
+                                        nas calhas das casas e no solo. E água potável, você sabe o que é? É aquela que é tratada para 
+                                        que possamos consumir.
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <section id="page-3" class="page">
+                    <div class="default-width-center">
+                        <h1 class="sprite white" id="box-title-page3"><span class="sprite-with-text">O caminho da água</span></h1>
+                        <article class="sprite water-flow dark-blue">
+                            <div class="text-transition">
+                                <div>
+                                    <p>
+                                        <span class="capitulate">Á</span> água que consumimos é dita doce e vem das nascentes,
+                                        os chamados mananciais; de fontes superficiais, como rios, lagos, lagoas e riachos; ou de 
+                                        fontes subterrâneas, como os freáticos e os aquíferos. Isso mesmo, também há “rios” no 
+                                        subterrâneo, no solo.
+                                    </p>
+                                    <p>
+                                        Mas, afinal, como essa água vai parar lá?
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        O processo é mais ou menos assim: depois de evaporar na atmosfera, formar as nuvens e
+                                        cair sobre a terra em forma de chuva, parte dessa água infiltra-se no solo, formando bolsas
+                                        de água. A camada mais próxima da superfície é chamada de freático. Já os aquíferos ocupam 
+                                        camadas mais profundas, preenchendo fraturas, fissuras e falhas de rochas, que formam grandes 
+                                        reservatórios que podem ser consumidos pelo homem como fonte de água para o consumo.
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <section id="page-4" class="page">                	
+                    <article class="mode_sprite mode_panel mode_teacher mode_multipage">
+                        <button type="button" class="mode_sprite mode_teacher_close"></button>
+                        <button type="button" class="mode_sprite mode_teacher_up"></button>
+                        <button type="button" class="mode_sprite mode_teacher_down"></button>
+                        <div>
+                            <h2>Para onde vai toda a água registrada nos hidrômetros de nossas casas?</h2>
+                            <p>
+                            	A partir da observação e do entendimento sobre a importância da água no cotidiano, divida a turma
+                            	em grupos para comparar os pontos de vista sobre as necessidades indicadas por cada estudante
+                            	junto aos seus pares.
+                            </p>
+                            <p>
+                            	Você pode, ainda, incentivá-los a pesquisar e refletir sobre a quantidade de água doce disponível
+                            	no país e a distribuição desigual, bem como suas causas naturais.
+                            </p>
+                       	</div>
+                        <div>
+                            <p>
+                            	Além disso, pode-se explorar a função do hidrômetro e traçar a média de consumo de água nas residências
+                            	utilizando o <strong>Aquaplicativo Calculadora de Consumo</strong>, pesquisando nas contas de água dos
+                            	últimos três meses, inserindo todas as formas de uso, quantas pessoas moram na casa, e também a periodicidade
+                            	(quantas vezes por semana lavam roupas, quantas vezes e por quanto tempo lavam o quintal etc.), de modo
+                            	que percebam mais claramente de que forma gastam água.
+                            </p>
+                       	</div>
+                        <div>
+                            <p>
+                            	É possível, também, explorar esse quadro em relação à água doce existente no mundo e ao consumo médio
+                            	per capita em diferentes países; pesquisar quais os países que já sofrem com a escassez de água; quais
+                            	providências são tomadas por esses países para combater a falta de água etc.
+                            </p>
+                            <p>
+                            	As curiosidades levantadas podem ser transformadas em debates, tabelas comparativas, gráficos e mapas ilustrados.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="mode_sprite mode_panel mode_parents">
+                        <button type="button" class="mode_sprite mode_parents_close"></button>
+                        <div>
+                            <h2>Como saber se a água que tomamos é própria para o consumo?</h2>
+                            <p>
+                                Nem toda água doce pode ser bebida. Aquela que vem de rios, lagos, lagoas, cachoeiras ou mesmo da chuva
+                                pode ser consumida só depois de tratada pela rede de abastecimento da sua cidade. Nesse caso, quando é
+                                tratada e adequada ao consumo humano é chamada de água potável.
+                            </p>
+                        </div>
+                    </article>
+
+                    <div class="default-width-center sprite">
+                        <h1 class="sprite white" id="title-page4"><span class="sprite-with-text">Mas qual a importância desses números ?</span></h1>
+                        <article>
+                            <div class="text-transition">
+                                <div>
+                                    <div class="top-text white">
+                                        <p>
+                                            <span class="capitulate">O</span> planeta Terra é formado por pouco mais de dois terços de água.
+                                            Agora, imagine toda essa água enchendo 100 gigantescas piscinas. Imaginou? Pois saiba que 97 dessas
+                                            piscinas conteriam apenas água salgada e que, das três piscinas restantes, uma inteira e mais três
+                                            quartos da outra representariam a água congelada nos polos.
+                                        </p>
+                                    </div>
+                                    <div class="bottom-text dark-blue">
+                                        <p>
+                                            Haveria, então, somente uma piscina e um quarto com água disponível para uso? Menos, bem menos...
+                                            Porque quase toda essa água que sobrou fica escondida no interior da terra.
+                                        </p>
+                                        <p>
+                                            Apenas sete milésimos de toda água do planeta é considerada disponível para o uso.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="top-text white">
+                                        <p>
+                                            <span class="capitulate">A</span> água que os seres humanos podem usar para beber, tomar banho,
+                                            lavar louças, usar na indústria ou no comércio corresponde à menor porção de toda a água doce 
+                                            disponível: sete milésimos.
+                                        </p>
+                                    </div>
+                                    <div class="bottom-text dark-blue">
+                                        <p>
+                                            Trocando em miúdos, a água é um recurso limitado e apesar de passar por um processo contínuo de 
+                                            tratamento natural (evaporação, chuva, infiltração no solo), chamado de ciclo hidrológico, a quantidade
+                                            de água que existe no mundo não aumenta, diferentemente da população mundial: há cerca de 2.000 anos 
+                                            estima-se que havia 300 milhões de habitantes no mundo. Atualmente, a população mundial saltou para 
+                                            cerca de 7 bilhões de pessoas e esse número continua crescendo, mas a quantidade de água permanece a mesma.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <section id="page-5" class="page">
+                    <article class="mode_sprite mode_panel mode_parents">
+                        <button type="button" class="mode_sprite mode_parents_close"></button>
+                        <div>
+                            <h2>Por que a água deve ser tratada e fervida?</h2>
+                            <p>
+                                A água contaminada pode causar doenças, tais como: diarréia, cólera, verminoses, poliomielite, esquistossomose, 
+                                febre tifoide, hepatite e, até mesmo, cáries dentárias.
+                            </p>
+                            <p>
+                                Ao ser tratada e fervida, os transmissores dessas doenças são eliminados.
+                            </p>
+                            <p>
+                                Sempre que for necessário usar água da chuva, de rio, lagoa, açude, cachoeira ou poço, para o consumo, é necessário fervê-la!
+                            </p>
+                        </div>
+                    </article>
+
+                    <div class="default-width-center">
+                        <h1 class="sprite white" id="box-title-page5"><span class="sprite-with-text">Água de beber, de banhar, de viver...</span></h1>
+                        <article>
+                            <div class="text-transition dark-blue">
+                                <div>
+                                    <p>
+                                        <span class="capitulate">A</span> água doce disponível na natureza é considerada potável 
+                                        apenas quando está livre de substâncias tóxicas e de microrganismos que possam oferecer risco
+                                        à nossa saúde, como parasitas, bactérias, protozoários, fungos, entre Tenha isso sempre em
+                                        mente: nem toda água doce pode ser consumida. Portanto, nada de beber água direto dos rios,
+                                        dos lagos, das lagoas, dos riachos ou das cachoeiras.
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        E nem da chuva, antes de fervê-la! A água da chuva, ao entrar em contato com o ar poluído
+                                        ou outras superfícies, como as telhas, canos ou terra, pode ficar carregada de microrganismos
+                                        e substâncias nocivas à nossa saúde.
+                                    </p>
+                                    <p class="sprite" id="footer-page5">
+                                        <span class="sprite-with-text">
+                                            Mergulhe<br/>
+                                            nas próximas<br/>
+                                            páginas e descubra<br/>
+                                            de onde vem a água<br/>
+                                            que podemos consumir.<br/>
+                                            E, ainda, como tomar<br/>
+                                            todo cuidado com a sua<br/>
+                                            saúde e a de sua família.
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <section id="page-6" class="page">
+                    <article class="mode_sprite mode_panel mode_teacher mode_multipage">
+                        <button type="button" class="mode_sprite mode_teacher_close"></button>
+                        <button type="button" class="mode_sprite mode_teacher_up"></button>
+                        <button type="button" class="mode_sprite mode_teacher_down"></button>
+                        <div>
+                            <h2>Para garantir o combate aos desperdícios, que tal descobrir se há vazamentos em casa?</h2>
+                            <p>
+                                Um furinho menor que a cabeça de um alfinete num cano é capaz de desperdiçar em um dia água suficiente para 
+                                abastecer quatro pessoas. E se isso não for percebido por um ano inteiro... O melhor a fazer é checar os 
+                                encanamentos de casa!
+                            </p>
+                            <p>
+                                Fechem as torneiras, desliguem os aparelhos que usam água e não usem o banheiro, durante os testes. Vamos lá?
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                1. Abram o registro de água e anotem o número que aparece ou marquem a posição do ponteiro maior do “relógio de água".
+                                Depois de uma hora, verifiquem novamente. Se a posição mudar, pode haver vazamentos.
+                            </p>
+                            <p>
+                                2. Fechem a torneira da boia da caixa-d'água. Marquem o nível da água na caixa e verifiquem após uma hora. Se baixou,
+                                há vazamento nos canos ou nos sanitários.
+                            </p>
+                            <p>
+                                3. Encham um copo de água. Fechem o registro, abram uma torneira abastecida pela água da rua. Ao parar de pingar, coloquem
+                                o copo na boca da torneira. Se a água for sugada, pode haver vazamento nos canos alimentados pela rede.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="mode_sprite mode_panel mode_parents mode_multipage">
+                        <button type="button" class="mode_sprite mode_parents_close"></button>
+                        <button type="button" class="mode_sprite mode_parents_up"></button>
+                        <button type="button" class="mode_sprite mode_parents_down"></button>
+                        <div>
+                            <h2>Para garantir o combate aos desperdícios, que tal descobrir se há vazamentos em casa?</h2>
+                            <p>
+                                Um furinho menor que a cabeça de um alfinete num cano é capaz de desperdiçar em um dia água suficiente para 
+                                abastecer quatro pessoas. E se isso não for percebido por um ano inteiro... O melhor a fazer é checar os 
+                                encanamentos de casa!
+                            </p>
+                            <p>
+                                Fechem as torneiras, desliguem os aparelhos que usam água e não usem o banheiro, durante os testes. Vamos lá?
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                1. Abram o registro de água e anotem o número que aparece ou marquem a posição do ponteiro maior do “relógio de água".
+                                Depois de uma hora, verifiquem novamente. Se a posição mudar, pode haver vazamentos.
+                            </p>
+                            <p>
+                                2. Fechem a torneira da boia da caixa-d'água. Marquem o nível da água na caixa e verifiquem após uma hora. Se baixou,
+                                há vazamento nos canos ou nos sanitários.
+                            </p>
+                            <p>
+                                3. Encham um copo de água. Fechem o registro, abram uma torneira abastecida pela água da rua. Ao parar de pingar, coloquem
+                                o copo na boca da torneira. Se a água for sugada, pode haver vazamento nos canos alimentados pela rede.
+                            </p>
+                        </div>
+                    </article>
+
+                    <div class="default-width-center sprite sun-shine-effect">
+                        <h1 class="sprite" id="title-page6"><span>Saneamento... oque?!</span></h1>
+                        <article>
+                            <p class="white custom-text">
+                                De<br/>
+                                onde <br/>
+                                vem? Para <br/>
+                                onde vai? O <br/>
+                                que acontece<br/>
+                                com a água que <br/>
+                                desce pelo ralo?<br/>
+                                Muitas perguntas e <br/>
+                                um longo caminho...<br/>
+                                Acompanhe comigo!
+                            </p>
+                        </article>
+                    </div>
+                </section>
+
+                <section id="page-7" class="page">
+                    <div class="default-width-center sprite sun-shine-effect footer-ground">
+                        <article class="dark-blue">
+                            <div class="text-transition">
+                                <div>
+                                    <p>
+                                        <span class="capitulate">O</span> saneamento básico é um serviço oferecido pelos governos à população,
+                                        que proporciona o abastecimento de água potável encanada e o tratamento do esgoto.
+                                    </p>
+                                    <p>
+                                        Segundo o Sistema Nacional de Informações sobre Saneamento, de cada 100 residências do nosso país quase
+                                        85 são abastecidas por rede de água encanada.
+                                    </p>
+                                    <p class="custom-size">
+                                        Além disso, há uma distribuição desigual das fontes de água no Brasil, com mais água doce no Norte e
+                                        pouca no Nordeste do país, onde alguns estados sofrem com a sua escassez.
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        Pode acreditar! Não é exagero: o acesso à água potável está cada vez mais difícil. A nossa missão
+                                        é preservá-la.
+                                    </p>
+                                    <p>
+                                        Se poluimos a água disponível, cada vez mais teremos de recorrer aos tratamentos artificiais e, 
+                                        como já acontece em muitas cidades do mundo, podemos enfrentar falta de água.
+                                    </p>
+                                    <p class="custom-size">
+                                        A água que usamos e que escorre pelos ralos também recebe cuidados para ser devolvida aos rios, 
+                                        por meio do tratamento dos esgotos. Mas pouco mais da metade das residências brasileiras (apenas 
+                                        cerca de 55 em cada 100) têm coleta de esgoto nas áreas urbanas.
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                </section>
+
+                <section id="page-8" class="page">
+                    <article class="mode_sprite mode_panel mode_parents">
+                        <button type="button" class="mode_sprite mode_parents_close"></button>
+                        <div>
+                            <h2>O que faz da água um elemento tão importante?</h2>
+                            <p>
+                                Dependemos da água para beber, fazer comida, lavar roupa, tomar banho, além de uma série de atividades, como a
+                                pesca, o lazer, o esporte. Ela também é muito importante para o comércio, a indústria, para gerar energia nas
+                                hidrelétricas e, principalmente na agricultura, para produzir os alimentos que consumimos. Imaginem-se sem tudo 
+                                isso... Não dá para viver sem ela. Por isso, é importante saber usar a água com muita responsabilidade!
+                            </p>
+                        </div>
+                    </article>
+
+                    <div class="default-width-center sprite">
+                        <h1 class="sprite" id="box-title-page8"><span class="sprite-with-text white bold">Como não afetar a nossa reserva de água?</span></h1>
+                        <article class="dark-blue">
+                            <div class="text-transition">
+                                <div>
+                                    <p>
+                                        Muito bem! Você já sabe que a água que consumimos vem das fontes subterrâneas ou superficiais.
+                                        <br/>Mas vamos aos detalhes...
+                                    </p>
+                                    <p>
+                                        Depois de represada nas estações de tratamento, a água passa por um rigoroso processo de limpeza,
+                                        filtragem e desinfecção com a ajuda de algumas substâncias químicas (cloro, cal, flúor etc.).
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        Tais substâncias são utilizadas, principalmente, para que as impurezas sejam retiradas e para que
+                                        microrganismos causadores de doenças sejam eliminados. Assim, quando a água é distribuída pela rede 
+                                        de abastecimento, ela já passou por um processo muito importante de tratamento, essencial para a nossa saúde.
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        Só então a água segue para os reservatórios dos bairros e pelas adutoras, que são grandes tubulações 
+                                        que levam a água até a nossa casa.
+                                    </p>
+                                    <p>
+                                        Por ser um recurso limitado e insubstituível e porque nem todo mundo tem acesso à água tratada, devemos
+                                        ser responsáveis ao usá-la. A água, na verdade, deve ser respeitada como um	bem precioso para as nossas vidas.
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <section id="page-9" class="page">
+                    <article class="mode_sprite mode_panel mode_parents">
+                        <button type="button" class="mode_sprite mode_parents_close"></button>
+                        <div>
+                            <h2>Por que a água doce do mundo está ameaçada?</h2>
+                            <p>
+                                Com o crescimento da população, a água doce vem sendo consumida intensamente. A poluição dos rios por lançamento de
+                                esgoto sem tratamento, restos industriais, lixo, agrotóxicos, além do desmatamento e de construções às suas margens
+                                também ameaçam a disponibilidade da água doce no mundo. O desperdício de água é outro grande problema.
+                            </p>
+                        </div>
+                    </article>
+
+                    <div class="default-width-center">
+                        <h1 class="sprite" id="title-page9"><span>Como proteger a nossa água?</span></h1>
+                        <article class="dark-blue custom-text">
+                            <p class="bold">
+                                Brasil, Rússia, China e Canadá são os países que têm as maiores reservas de água doce no mundo. 
+                                Dentre eles, o Brasil tem a maior parte e possui o maior rio em tamanho e quantidade de água do 
+                                planeta, o Amazonas. Ainda assim, não estamos em vantagem. A quantidade de água que consumimos e
+                                desperdiçamos afeta nossas vidas. Em muitas cidades já ocorre falta de água, como resultado do 
+                                desperdício e do aumento da poluição.
+                            </p>
+                        </article>
+                        <article class="dark-blue">	                                    	
+                            <div class="text-transition">
+                                <div>
+                                    <p>
+                                        <span class="capitulate">O</span> mau uso e o desperdício, o desmatamento <br/>
+                                        e a ocupação próxima às nascentes por <br/>
+                                        moradias ilegais, as diversas formas de <br/>
+                                        poluição e as consequentes mudanças <br/>
+                                        do clima devido às agressões ao <br/>
+                                        meio ambiente, provocadas <br/>
+                                        por nós, seres humanos, são <br/>
+                                        as principais causas para a <br/>
+                                        escassez da água.
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        A poluição da água atinge de forma direta o nosso cotidiano, pois a usamos para fazer comida,
+                                        tomar banho, lavar roupas e beber. Ela nutre as plantas, serve de habitat aos peixes e aos
+                                        outros seres aquáticos, torna possível o cultivo de alimentos na agricultura e também é utilizada
+                                        nas indústrias.
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <section id="page-10" class="page">
+                    <article class="mode_sprite mode_panel mode_parents">
+                        <button type="button" class="mode_sprite mode_parents_close"></button>
+                        <div>
+                            <h2>E o que isso tudo tem a ver contigo, sua família e com todo mundo?</h2>
+                            <p>
+                                São as ações que podem ajudar a conter esse quadro, já que o desperdício não atinge apenas o nosso bolso, 
+                                ao pagar a conta de água. O uso que fazemos dela atinge a vida no planeta: a nossa, da nossa família, da 
+                                comunidade, dos animais e plantas.
+                            </p>
+                        </div>
+                    </article>
+
+                    <div class="default-width-center">
+                        <h1 class="sprite" id="box-title-page10"><span class="sprite-with-text white bold">Como não afetar a nossa reserva de água?</span></h1>
+                        <dfn class="braces dark-blue bold"><em>Não desperdiçar</em><small> é o primeiro passo!</small></dfn>
+                        <article class="dark-blue">
+                            <p>
+                                <span class="capitulate">P</span>ense a respeito e siga estas dicas para aprender a economizar e
+                                evitar que a água tratada falte:
+                            </p>
+                            <div class="text-transition">
+                                <div>
+                                    <ul>
+                                        <li>
+                                            <p>
+                                                – Ao tomar banho com o registro meio aberto, por quinze minutos, gasta-se até 45 litros
+                                                de água (em casa) ou 144 litros (em apartamento). Com chuveiro elétrico ou a gás, muita
+                                                energia também é utilizada! Fechando a torneira enquanto se ensaboa e diminuindo o tempo
+                                                do banho para cinco minutos, o consumo cai para 15 litros (casa) e 48 litros (apartamento).
+                                                Portanto, seja ligeiro no banho!
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                – Ao escovar os dentes durante cinco minutos com a torneira aberta, são gastos até 12 litros
+                                                de água (em casa) e 80 litros (em apartamento). Se molhar a escova e fechar a torneira enquanto
+                                                escova os dentes e, ainda, enxaguar a boca com um copo com água, você economiza até 11,5 litros
+                                                (casa) e 79 litros (apartamento).
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <ul>
+                                        <li>
+                                            <p>
+                                                – Se você aperta a descarga do vaso sanitário várias vezes, pode gastar até 38 litros de água. 
+                                                Então, nada de brincar com a descarga, hein?!
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                – Lavar o rosto e as mãos com a torneira aberta por dois minutos gasta até 8 litros de água.
+                                                Se molhar as mãos e o rosto, fechar a torneira, ensaboá-los e enxaguá-los, gastará menos de
+                                                2 litros.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <section id="page-11" class="page">
+                    <div class="default-width-center" id="footer-page11">
+                        <article class="dark-blue">                                    	
+                            <div class="text-transition">
+                                <div>
+                                    <dfn class="braces dark-blue bold"><span>Proteja os mananciais</span></dfn>
+                                    <ul>
+                                        <li>
+                                            <p>
+                                                – Não jogue lixo em rios, lagos, córregos ou nascentes. Lembre-se de que quanto mais
+                                                poluído for um manancial, mais difícil e caro é o seu tratamento, e que suas águas podem
+                                                ser utilizadas para o nosso consumo depois de tratadas.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                – Não jogue lixo no vaso sanitário, pois isso acaba contaminando ainda mais a água do
+                                                esgoto que, depois de tratada, também será devolvida aos rios.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                – Faça campanhas para a limpeza e preservação dos mananciais próximos à sua escola ou
+                                                casa; peça a ajuda de sua família e junte os seus amigos para reflorestar as margens,
+                                                mantê-las o mais limpas possível, coletando o lixo deixado por lá.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <dfn class="braces dark-blue bold custom-text"><span>Entenda a importância da<br>mata ciliar para os mananciais</span></dfn>
+                                    <p>
+                                        A mata ciliar é uma das formações vegetais mais importantes para a preservação da vida. Trata-se
+                                        daquela vegetação às margens dos rios, lagos, córregos e riachos, formada por árvores, arbustos, 
+                                        cipós, gramas.
+                                    </p>
+                                    <p>
+                                        As raízes dessas plantas fazem com que o solo funcione como uma esponja, que retém e filtra a água
+                                        das chuvas. A mata ciliar é essencial para a proteção dos mananciais porque impede que os agrotóxicos
+                                        usados em lavouras e o lixo jogado às suas margens sejam levados pela água das chuvas. 
+                                    </p>
+                                </div>
+                                <div>
+                                    <p class="custom-text">
+                                        Ela é também um obstáculo ao assoreamento, evita enchentes e serve de abrigo aos animais.
+                                    </p>
+                                    <p>
+                                        Apesar de tão necessária, a mata ciliar vem desaparecendo muito rapidamente, em função da falta
+                                        de entendimento sobre a sua importância e da retirada de madeira para venda ilegal.
+                                    </p>
+                                    <p>
+                                        Junte-se aos seus vizinhos e professores, organize uma campanha para informá-los sobre a
+                                        importância dos mananciais e da mata ciliar e denuncie as ações ilegais à Secretaria de Meio
+                                        Ambiente de sua cidade!
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <section id="page-12" class="page">
+                    <div class="default-width-center bold">
+                        <article id="message-page12">
+                            <p>
+                                Que tal aprender um pouco mais sobre algumas palavras que acabamos de ler? 
+                                Mergulhe nos significados e procure as palavras:
+                            </p>
+                        </article>
+                        <article id="container-page12" style="">
+                            <section id="container_find_word" class="dark-blue">
+                                <div id="divEvents"></div>
+                                <!-- Ser� criado a tabela -->
+                                <table border="0" id="table-game"></table>
+                            </section>
+                            <section id="container_find_word_win" class="dark-blue">
+                                <div id="title-page12-win" class="sprite"></div>
+                                <button id="btn-page12-restart" class="sprite"></button>
+                            </section>
+                        </article>
+                    </div>
+                    <ul id="container_words_game">
+                        <!-- Show words to search -->
+                    </ul>
+                </section>
+
+                <section id="page-13" class="page">
+                    <div class="default-width-center footer-ground">
+                        <h1 class="sprite" id="title-page13"><span>Encare essa</span></h1>
+                        <h2 class="custom-size white bold"><span>Conheça melhor o seu corpo</span></h2>
+                        <article class="white">
+                            <p>
+                                Você sabia que há água em nosso corpo? Exatamente! Nosso corpo é composto por células, vasos 
+                                sanguíneos e tecidos, que são formados por água. No total, a água constitui cerca de dois 
+                                terços do peso do nosso corpo.
+                            </p>
+                        </article>
+                        <article class="dark-blue">
+                            <div class="text-transition">
+                                <div>
+                                    <p>
+                                        A água é o principal componente do xixi e do suor, líquidos pelos quais eliminamos as 
+                                        impurezas do organismo. No caso do suor, também ajuda a equilibrar a temperatura do corpo.
+                                        Além disso, também perdemos água na respiração, em forma de vapor.
+                                    </p>
+                                    <p>
+                                        Para que nosso corpo se mantenha saudável e funcione bem, devemos repor a quantidade perdida.
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        Por isso, é recomendável o consumo de, pelo menos, dois litros de água por dia. Lembre-se de 
+                                        que essa água pode estar também em frutas, verduras, sucos, legumes etc.
+                                    </p>
+                                    <p>
+                                        Se a água constituicerca de dois terços do peso do nosso corpo e, sabendo seu peso, faça as 
+                                        contas e responda: quanto há de água em seu corpo, aproximadamente?
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <section id="page-14" class="page">
+                	 <article class="mode_sprite mode_panel mode_teacher mode_multipage">
+                        <button type="button" class="mode_sprite mode_teacher_close"></button>
+                        <button type="button" class="mode_sprite mode_teacher_up"></button>
+                        <button type="button" class="mode_sprite mode_teacher_down"></button>
+                        <div>
+                            <h2>Experimente</h2>
+                            <p>
+                            	O experimento <strong>Chuva no copo</strong> pode dar origem a uma curiosa pesquisa sobre as consequências de um
+                            	fenômeno natural bastante comum, mas que ainda pode despertar muitas dúvidas.
+                            </p>
+                            <p>
+                            	Faça o experimento com os estudantes e aproveite para falar sobre as circunstâncias para a
+                            	ocorrência de chuvas. A experiência dá oportunidade de apresentar um modelo científico inserido
+                            	no cotidiano: o ensino na prática. Sempre que possível, acrescente experimentos às suas aulas
+                            	para que os estudantes tenham a chance de observar como os fenômenos explicados na teoria acontecem
+                            	de fato. Isso facilita a compreensão do fenômeno e o entendimento dos conceitos.
+                            </p>
+                       	</div>
+                        <div>
+                            <p>
+                            	Estimule seus alunos a realizarem uma investigação sobre o tema em jornais, revistas ou na internet.
+                            	Eles podem procurar, por exemplo, notícias sobre o período mais comum de ocorrência das chuvas na
+                            	cidade em que moram, sobre o volume das chuvas, as decorrências de períodos chuvosos e de períodos
+                            	secos. Podem pesquisar ainda sobre a ocorrência de enchentes, os motivos pelos quais ocorrem, as
+                            	formas de prevenção, a relação entre resíduos sólidos e esse fenômeno, dentre outras possibilidades
+                            	de explorar o tema.
+                            </p>
+                            <p>
+                            	Pense em novos experimentos e passe a usar essa interessante ferramenta em suas aulas!
+                            </p>
+                       	</div>
+                    </article>                
+                
+                    <div class="default-width-center">
+                        <h1 class="sprite" id="title-page14"><span class="sprite-with-text white bold">Chuva no copo</span></h1>
+                        <article class="white custom-size">
+                            <p>
+                                Você sabe o que acontece "lá em cima" para ocorrer a chuva? Que tal enxergar como acontece?
+                                Vamos investigar esse fenômeno fazendo chover em um copo. Isso mesmo, em um copo!
+                            </p>
+                        </article>
+                        <article class="sprite dark-blue box-description">
+                            <h3 class="bold">
+                                Você vai precisar de:
+                            </h3>
+                            <ul>
+                                <li>
+                                    1 pote rígido transparente
+                                </li>
+                                <li>
+                                    água quente (peça a ajuda de um adulto)
+                                </li>
+                                <li>
+                                    1 pedaço de filme plástico
+                                </li>
+                                <li>
+                                    gelo
+                                </li>
+                            </ul>
+                        </article>
+                        <article class="sprite dark-blue box-description2">
+                            <p>
+                                Mão na massa!
+                            </p>
+                            <ul>
+                                <li>
+                                    1. Peça ajuda a um adulto para esquentar a água e, com ela, preencher 1/4 do copo.
+                                </li>
+                                <li>
+                                    2. Cubra a “boca” do pote com o filme plástico e espere alguns segundos. Repare nas 
+                                    pequenas gotas que se formam dentro dele.
+                                </li>
+                                <li>
+                                    3. Depois, coloque alguns cubos de gelo delicadamente sobre o filme e aguarde alguns
+                                    minutos.
+                                </li>
+                                <li>
+                                    4. Retire o gelo e bata suavemente com os dedos no filme, para que as gotas se desprendam.
+                                    Eis aí a sua chuva!
+                                </li>
+                            </ul>
+                            <p>
+                                O que aconteceu?
+                            </p>
+                            <p>
+                                A água quente representa todo o vapor de água que vai para a atmosfera, seja da transpiração 
+                                das plantas, da evaporação de água líquida do solo etc. O gelo simula as baixas temperaturas
+                                nas camadas mais altas da atmosfera. Em contato com a superfície fria, o vapor se condensa e
+                                formam-se gotas de água na superfície do copo. Isso também acontece quando a água evapora com
+                                o calor: o vapor sobe e encontra o ar frio, que se condensa e cai como chuva.
+                            </p>
+                        </article>
+                    </div>
+                </section>
+
+                <section id="page-15" class="page">
+                    <div class="default-width-center">
+                        <h1 class="sprite"><span>Boia ou afunda</span></h1>
+                        <article class="sprite white" id="box-arabesque">
+                            <p>
+                                ?
+                            </p>
+                        </article>
+                        <article class="sprite water-flow dark-blue">
+                            <p>
+                                Você vai precisar de:
+                            </p>
+                            <ul>
+                                <li>
+                                    1 pote rígido transparente
+                                </li>
+                                <li>
+                                    água quente (peça a ajuda de um adulto)
+                                </li>
+                                <li>
+                                    1 pedaço de filme plástico
+                                </li>
+                                <li>
+                                    gelo
+                                </li>
+                            </ul>
+                            <p>
+                                Mão na massa!
+                            </p>
+                            <ul>
+                                <li>
+                                    1. Peça ajuda a um adulto para esquentar a água e, com ela, preencher 1/4 do copo.
+                                </li>
+                                <li>
+                                    2. Cubra a “boca” do pote com o filme plástico e espere alguns segundos. Repare nas 
+                                    pequenas gotas que se formam dentro dele.
+                                </li>
+                                <li>
+                                    3. Depois, coloque alguns cubos de gelo delicadamente sobre o filme e aguarde alguns
+                                    minutos.
+                                </li>
+                                <li>
+                                    4. Retire o gelo e bata suavemente com os dedos no filme, para que as gotas se desprendam.
+                                    Eis aí a sua chuva!
+                                </li>
+                            </ul>
+                            <p>
+                                O que aconteceu?
+                            </p>
+                            <p>
+                                A água quente representa todo o vapor de água que vai para a atmosfera, seja da transpiração 
+                                das plantas, da evaporação de água líquida do solo etc. O gelo simula as baixas temperaturas
+                                nas camadas mais altas da atmosfera. Em contato com a superfície fria, o vapor se condensa e
+                                formam-se gotas de água na superfície do copo. Isso também acontece quando a água evapora com
+                                o calor: o vapor sobe e encontra o ar frio, que se condensa e cai como chuva.
+                            </p>
+                        </article>
+                    </div>
+                </section>
+
+                <section id="page-16" class="page">
+                    <article class="mode_sprite mode_panel mode_parents mode_multipage">
+                        <button type="button" class="mode_sprite mode_parents_close"></button>
+                        <button type="button" class="mode_sprite mode_parents_up"></button>
+                        <button type="button" class="mode_sprite mode_parents_down"></button>
+                        <div>
+                            <h2>Cuidar da saúde e reduzir o desperdício</h2>
+                            <p>
+                                Antes de lavar a louça, limpem os restos com uma esponja e joguem-os no lixo. Dissolvam um 
+                                pouco de detergente em um pote com água. Usem essa mistura para ensaboar toda a louça e só
+                                então abram a torneira para enxaguá-la.
+                            </p>
+                            <p>
+                                Tomem banhos mais rápidos e fechem o registro do chuveiro na hora de se ensaboar.
+                            </p>
+                            <p>
+                                Enquanto escovam os dentes, mantenham a torneira fechada. Depois, para enxaguar a boca,
+                                usem um copo com água.
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                Esqueçam a mangueira na hora de lavar a calçada! Água, só quando realmente necessário e 
+                                depois de varrer as folhas e a sujeira. Guardem a água da máquina de lavar, do tanquinho
+                                ou da chuva (em tonéis bem fechados) e reaproveitem-nas na limpeza do quintal.
+                            </p>
+                            <p>
+                                Nunca usem o vaso sanitário como lixeira ou cinzeiro, e não acionem a descarga à toa.
+                                Mantenham a válvula da descarga sempre regulada, e consertem os vazamentos assim que forem notados
+                            </p>
+                            <p>
+                                Usem um regador para molhar as plantas em vez de mangueira. Para economizar, a rega durante o
+                                verão deve ser feita de manhãzinha ou à noite, o que reduz a perda por evaporação.
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                Não deixem a torneira aberta continuamente. Para lavar a roupa no tanque, basta molhar a roupa,
+                                ensaboar, deixe de molho e enxaguar.
+                            </p>
+                            <p>
+                                Fiquem atentos e consertem os vazamentos assim que aparecerem.
+                            </p>
+                            <p>
+                                Lavar a caixa-d'água a cada seis meses é essencial para garantir que sua família tenha acesso à
+                                água limpa, livre de sujeiras e de elementos que possam causar doenças.
+                            </p>
+                            <p>
+                                Espalhem essas dicas para sua família, vizinhos e no trabalho! Além de proteger as reservas de água doce e o
+                                futuro de seus filhos, as contas de água serão menores!
+                            </p>
+                        </div>
+                    </article>
+
+                    <div class="default-width-center">
+                        <article class="sprite white" id="box-arabesque">
+                            <p>
+                                Ao usar a água, é necessário ter responsabilidade para não desperdiçá-la porque ela é essencial 
+                                para as nossas vidas. Veja a animação abaixo e aponte situações onde a água está sendo desperdiçada.
+                                Água desperdiçada é água perdida.
+                            </p>
+                        </article>
+                    </div>
+                </section>
+
+                <section id="page-17" class="page">
+                    <div class="default-width-center">
+                        <article class="sprite white" id="box-arabesque">
+                            <p>
+                                Água poluída também é água perdida. Veja a animação abaixo e toque nos locais que mostram
+                                situações onde a água está sendo poluída. Fique atento!
+                            </p>
+                        </article>
+                    </div>
+                </section>
+
+                <canvas id="animation" class="default-width-center"></canvas>
+            </div>
+        </div>
+
+        <div id="selection_find_word"><!-- Selection find word. if relative to page. --></div>
+        <!--script type="text/javascript" src="../scripts/cordova.js"></script-->
+        <script type="text/javascript" src="../scripts/jquery-2.0.3.min.js"></script>
+        <script type="text/javascript" src="../scripts/jquery-ui-1.10.3.custom.min.js"></script>
+        <script type="text/javascript" src="../scripts/jquery.transit.min.js"></script>
+        <script type="text/javascript" src="caca_palavras_pc.js"></script>
+        <script type="text/javascript" src="../scripts/jquery.cycle.all.js"></script>
+        <script type="text/javascript" src="../scripts/pixi.js"></script>
+        <script type="text/javascript" src="../scripts/BookAnimationController.js"></script>
+        <script type="text/javascript" src="../scripts/index.js"></script>
+    </body>
+</html>

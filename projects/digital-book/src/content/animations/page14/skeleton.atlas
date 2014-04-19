@@ -1,0 +1,40 @@
+
+skeleton.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+_0000_Frame
+  rotate: false
+  xy: 1, 117
+  size: 484, 372
+  orig: 484, 372
+  offset: 0, 0
+  index: -1
+_0001_Glass
+  rotate: false
+  xy: 140, 52
+  size: 73, 63
+  orig: 73, 63
+  offset: 0, 0
+  index: -1
+_0002_EyeO
+  rotate: false
+  xy: 140, 8
+  size: 57, 42
+  orig: 57, 42
+  offset: 0, 0
+  index: -1
+_0003_EyeC
+  rotate: false
+  xy: 215, 73
+  size: 57, 42
+  orig: 57, 42
+  offset: 0, 0
+  index: -1
+_0004_Fish
+  rotate: true
+  xy: 1, 1
+  size: 114, 137
+  orig: 114, 137
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,96 @@
+html {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: moz-none;
+	-ms-user-select: none;
+	user-select: none;
+}
+/*=== LOG ===*/
+#container-log {
+	border: 1px dashed #000;
+	width: 450px;
+	height: 420px;
+	font-size: 12px;
+}
+
+#log{
+	height: 370px;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+/* === EVENTS SELECTION ===*/
+#container .mouse-in{
+	background-color: #FFFF00;
+}
+
+#container .mouse-out{
+	background-color: #ccc;
+}
+
+#container .correct-word {
+	background-color: #00FF00;
+}
+
+/* === TABLE === */
+#container table{
+	display: none;
+	border: 0;
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+#container table td{
+	text-align: center;
+	width: 20px;
+	height: 20px;
+}
+
+#container table td span{
+	display: block;
+	/*background-color: #333;*/
+}
+
+#divEvents {
+	position:absolute;
+}
+
+/* === WORDS === */
+#words {
+	
+}
+
+#words h2{
+	color: #FF0000;
+}
+
+/* === SELECTION === */
+#selection{
+	position:absolute;
+	display: none;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border-right: 5px solid #00f;
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=28)";
+	filter: alpha(opacity=28);
+	-moz-opacity: 0.28;
+	-khtml-opacity: 0.28;
+	opacity: 0.28;
+	transform-origin:10px 10px;
+	-ms-transform-origin:10px 10px; 
+	-webkit-transform-origin:10px 10px; 
+	-o-transform-origin:10px 10px; 
+	-moz-transform-origin:10px 10px; 
+}
+
+#teste{
+	background-color: #f00;
+	position:absolute;
+	width: 5px;
+	height: 5px;	
+}	

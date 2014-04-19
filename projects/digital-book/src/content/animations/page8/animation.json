@@ -1,0 +1,180 @@
+{"frames": {
+
+"_0000_FishEyesO.png":
+{
+	"frame": {"x":296,"y":973,"w":39,"h":21},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":39,"h":21},
+	"sourceSize": {"w":39,"h":21}
+},
+"_0001_FishEyesC.png":
+{
+	"frame": {"x":260,"y":997,"w":39,"h":21},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":39,"h":21},
+	"sourceSize": {"w":39,"h":21}
+},
+"_0002_Fish.png":
+{
+	"frame": {"x":647,"y":109,"w":167,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":167,"h":128},
+	"sourceSize": {"w":167,"h":128}
+},
+"_0003_BoyEyeBrows2.png":
+{
+	"frame": {"x":200,"y":973,"w":52,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":24},
+	"sourceSize": {"w":52,"h":24}
+},
+"_0004_BoyEyeBrows1.png":
+{
+	"frame": {"x":157,"y":1003,"w":59,"h":19},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":59,"h":19},
+	"sourceSize": {"w":59,"h":19}
+},
+"_0005_BoyEyeC.png":
+{
+	"frame": {"x":63,"y":973,"w":59,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":59,"h":30},
+	"sourceSize": {"w":59,"h":30}
+},
+"_0006_BoyEyeO.png":
+{
+	"frame": {"x":2,"y":973,"w":59,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":59,"h":30},
+	"sourceSize": {"w":59,"h":30}
+},
+"_0007_Esguicho2.png":
+{
+	"frame": {"x":450,"y":347,"w":164,"h":169},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":169},
+	"sourceSize": {"w":164,"h":169}
+},
+"_0008_Esguicho.png":
+{
+	"frame": {"x":647,"y":239,"w":165,"h":164},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":164},
+	"sourceSize": {"w":165,"h":164}
+},
+"_0009_BoyMouth2.png":
+{
+	"frame": {"x":2,"y":1005,"w":32,"h":12},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":12},
+	"sourceSize": {"w":32,"h":12}
+},
+"_0010_BoyMouth1.png":
+{
+	"frame": {"x":36,"y":1005,"w":32,"h":11},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":11},
+	"sourceSize": {"w":32,"h":11}
+},
+"_0011_Boy.png":
+{
+	"frame": {"x":814,"y":350,"w":112,"h":282},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":282},
+	"sourceSize": {"w":112,"h":282}
+},
+"_0012_BoyHandL2.png":
+{
+	"frame": {"x":124,"y":973,"w":31,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":31,"h":29},
+	"sourceSize": {"w":31,"h":29}
+},
+"_0013_BoyHandL.png":
+{
+	"frame": {"x":157,"y":973,"w":41,"h":28},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":41,"h":28},
+	"sourceSize": {"w":41,"h":28}
+},
+"_0014_BoyArmL.png":
+{
+	"frame": {"x":816,"y":109,"w":81,"h":50},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":81,"h":50},
+	"sourceSize": {"w":81,"h":50}
+},
+"_0015_ManEyesC.png":
+{
+	"frame": {"x":254,"y":973,"w":40,"h":22},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":22},
+	"sourceSize": {"w":40,"h":22}
+},
+"_0016_ManEyesO.png":
+{
+	"frame": {"x":218,"y":999,"w":40,"h":22},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":22},
+	"sourceSize": {"w":40,"h":22}
+},
+"_0017_Aguaceiro.png":
+{
+	"frame": {"x":647,"y":2,"w":266,"h":105},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":266,"h":105},
+	"sourceSize": {"w":266,"h":105}
+},
+"_0018_Man.png":
+{
+	"frame": {"x":2,"y":347,"w":446,"h":624},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":446,"h":624},
+	"sourceSize": {"w":446,"h":624}
+},
+"_0019_Vassoura.png":
+{
+	"frame": {"x":915,"y":2,"w":106,"h":346},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":106,"h":346},
+	"sourceSize": {"w":106,"h":346}
+},
+"_0020_Ground.png":
+{
+	"frame": {"x":2,"y":2,"w":643,"h":343},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":643,"h":343},
+	"sourceSize": {"w":643,"h":343}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "animation.png",
+	"format": "RGBA8888",
+	"size": {"w":1023,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:f293b21ad7f2bfffec21622054b3c38a$"
+}
+}

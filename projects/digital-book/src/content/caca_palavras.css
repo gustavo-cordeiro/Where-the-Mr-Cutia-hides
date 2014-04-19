@@ -1,0 +1,103 @@
+html {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: moz-none;
+	-ms-user-select: none;
+	user-select: none;
+}
+/* === EVENTS SELECTION ===*/
+#container_find_word .mouse-in{
+	background-color: #0a3f43;
+}
+
+#container_find_word .mouse-out{
+	/**background-color: #ccc;*/
+}
+
+#container_find_word .correct-word {
+	background-color: #76B5D8;
+}
+
+/* === TABLE === */
+#container_find_word table{
+	display: none;
+	border: 0;
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+#container_find_word table td{
+	text-align: center;
+	width: 1.5em;
+	height: 1.3em;
+	border: none;
+	border-spacing: 0;
+}
+
+#container_find_word table td span{
+	display: block;
+	font-family: Arial;
+	/*background-color: #333;*/
+}
+
+#divEvents {
+	position:absolute;
+	width: 26em;
+	height: 20em;
+}
+
+/* === WORDS === */
+#container_words_game {
+	position: absolute;
+	top: 41em;
+	margin-left: 2.3em;
+	width: 34em;
+}
+#container_find_word_win {
+	position: absolute;
+	top: 0;
+	display: none;
+	width: 26em;
+	height: 20em;
+	border: 0;
+}
+
+#container_words_game {
+	list-style-position: inside;
+	list-style-type: disc;
+}
+#container_words_game li{
+	color: #0a3f43;
+	font-weight: normal;
+	font-size: 1.3em;
+	margin: 0;
+}
+
+#container_words_game li strong{
+	font-weight: bold;
+}
+
+/* === SELECTION === */
+#selection_find_word {
+	position:absolute;
+	display: none;
+	z-index:999999;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border-right: 5px solid #00f;
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=28)";
+	filter: alpha(opacity=28);
+	-moz-opacity: 0.28;
+	-khtml-opacity: 0.28;
+	opacity: 0.28;
+	transform-origin:10px 10px;
+	-ms-transform-origin:10px 10px; 
+	-webkit-transform-origin:10px 10px; 
+	-o-transform-origin:10px 10px; 
+	-moz-transform-origin:10px 10px; 
+}

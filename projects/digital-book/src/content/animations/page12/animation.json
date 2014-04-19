@@ -1,0 +1,52 @@
+{"frames": {
+
+"_0000_Frame.png":
+{
+	"frame": {"x":2,"y":2,"w":484,"h":372},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":484,"h":372},
+	"sourceSize": {"w":484,"h":372}
+},
+"_0001_Glass.png":
+{
+	"frame": {"x":118,"y":376,"w":73,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":63},
+	"sourceSize": {"w":73,"h":63}
+},
+"_0002_EyeO.png":
+{
+	"frame": {"x":252,"y":376,"w":57,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":57,"h":42},
+	"sourceSize": {"w":57,"h":42}
+},
+"_0003_EyeC.png":
+{
+	"frame": {"x":193,"y":376,"w":57,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":57,"h":42},
+	"sourceSize": {"w":57,"h":42}
+},
+"_0004_Fish.png":
+{
+	"frame": {"x":2,"y":376,"w":114,"h":137},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":137},
+	"sourceSize": {"w":114,"h":137}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "animation.png",
+	"format": "RGBA8888",
+	"size": {"w":488,"h":515},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:ae648a2e6f14798d599d2adec6cd3776$"
+}
+}

@@ -1,0 +1,156 @@
+{"frames": {
+
+"_0000_Helm.png":
+{
+	"frame": {"x":452,"y":113,"w":52,"h":51},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":51},
+	"sourceSize": {"w":52,"h":51}
+},
+"_0001_FishEyesC.png":
+{
+	"frame": {"x":416,"y":230,"w":28,"h":14},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":28,"h":14},
+	"sourceSize": {"w":28,"h":14}
+},
+"_0002_FishEyesO.png":
+{
+	"frame": {"x":386,"y":230,"w":28,"h":14},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":28,"h":14},
+	"sourceSize": {"w":28,"h":14}
+},
+"_0003_FishFinL.png":
+{
+	"frame": {"x":486,"y":60,"w":14,"h":10},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":14,"h":10},
+	"sourceSize": {"w":14,"h":10}
+},
+"_0004_FishTale.png":
+{
+	"frame": {"x":386,"y":246,"w":27,"h":27},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":27},
+	"sourceSize": {"w":27,"h":27}
+},
+"_0005_FishBody.png":
+{
+	"frame": {"x":451,"y":166,"w":47,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":47,"h":57},
+	"sourceSize": {"w":47,"h":57}
+},
+"_0006_FishFinR.png":
+{
+	"frame": {"x":486,"y":48,"w":14,"h":10},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":14,"h":10},
+	"sourceSize": {"w":14,"h":10}
+},
+"_0007_Drip03.png":
+{
+	"frame": {"x":502,"y":65,"w":4,"h":7},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":4,"h":7},
+	"sourceSize": {"w":4,"h":7}
+},
+"_0008_Drip02.png":
+{
+	"frame": {"x":502,"y":48,"w":8,"h":15},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":8,"h":15},
+	"sourceSize": {"w":8,"h":15}
+},
+"_0009_Drip01.png":
+{
+	"frame": {"x":486,"y":72,"w":10,"h":19},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":10,"h":19},
+	"sourceSize": {"w":10,"h":19}
+},
+"_0010_Planet.png":
+{
+	"frame": {"x":2,"y":2,"w":382,"h":300},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":382,"h":300},
+	"sourceSize": {"w":382,"h":300}
+},
+"_0011_BoyEyeC.png":
+{
+	"frame": {"x":486,"y":25,"w":21,"h":21},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":21,"h":21},
+	"sourceSize": {"w":21,"h":21}
+},
+"_0012_BoyEyeO.png":
+{
+	"frame": {"x":486,"y":2,"w":21,"h":21},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":21,"h":21},
+	"sourceSize": {"w":21,"h":21}
+},
+"_0013_BoyHead.png":
+{
+	"frame": {"x":386,"y":2,"w":98,"h":109},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":98,"h":109},
+	"sourceSize": {"w":98,"h":109}
+},
+"_0014_BoyBody.png":
+{
+	"frame": {"x":386,"y":152,"w":63,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":76},
+	"sourceSize": {"w":63,"h":76}
+},
+"_0015_BoyShoulder.png":
+{
+	"frame": {"x":451,"y":225,"w":34,"h":40},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":34,"h":40},
+	"sourceSize": {"w":34,"h":40}
+},
+"_0016_BoyArm.png":
+{
+	"frame": {"x":386,"y":113,"w":64,"h":37},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":37},
+	"sourceSize": {"w":64,"h":37}
+},
+"_0017_BoyLegs.png":
+{
+	"frame": {"x":2,"y":304,"w":132,"h":84},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":84},
+	"sourceSize": {"w":132,"h":84}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "skeleton.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:8463a6b2f820d76c540bb1bd02d72963$"
+}
+}
